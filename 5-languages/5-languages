@@ -1,4 +1,4 @@
-// Программа, которая выводит приветствие на языке пользователся
+// Программа, которая выводит приветствие на языке пользователся 
 const language = prompt("Введите ваш язык - 'en', 'ru', 'de', 'fr' или es");
 const lowerLanguage = language.toLowerCase(); 
 if (language === null) {
