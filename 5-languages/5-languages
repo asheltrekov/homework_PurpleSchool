@@ -1,0 +1,22 @@
+// Программа, которая выводит приветствие на языке пользователся
+const language = prompt("Введите ваш язык - 'en', 'ru', 'de', 'fr' или es");
+const lowerLanguage = language.toLowerCase(); 
+switch (lowerLanguage) {
+    case en:
+        console.log("Hello! How are you?");
+        break;
+    case ru:
+        console.log("Привет! Как твои дела?");
+        break;
+    case de:
+        console.log("Hallo, wie geht es dir?")ж
+        break;
+    case fr:
+        console.log("Bonjour comment allez-vous?");
+        break;
+    case es:
+        console.log("¿Hola, cómo estás?");
+        break;
+    default:
+        console.log("Hello! How are you?");
+}
